@@ -5,7 +5,7 @@ import math
 filename = "telemetry.csv"
 num_rows = 1000
 
-with open(filename, mode = 'w', newline = '') as file:
+with open(filename, mode='w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['timestamp_ms', 'motor1_pwm', 'motor2_pwm', 
         'motor3_pwm', 'motor4_pwm', 'pitch_deg', 'roll_deg', 'yaw_deg'])
