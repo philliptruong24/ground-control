@@ -24,5 +24,5 @@ ax2.grid(True)
 
 plt.tight_layout()
 
-plt.savefig('data/full_attitude_plot.png')
+plt.savefig('data/full_degree_plot.png')
 print("Successfully rendered and saved subplots.")
