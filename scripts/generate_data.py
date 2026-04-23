@@ -2,7 +2,7 @@ import csv
 import random
 import math
 
-filename = "telemetry.csv"
+filename = 'data/telemetry.csv'
 num_rows = 1000
 
 with open(filename, mode='w', newline='') as file:
